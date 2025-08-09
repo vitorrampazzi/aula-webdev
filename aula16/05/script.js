@@ -86,7 +86,7 @@ document.getElementById("salvar-produto").onclick = async (e) => {
 
 const excluirproduto = async (id) => {
   try {
-    const resposta = confirm("voce realmente quer exluir essa misera");
+    const resposta = confirm("voce realmente quer exluir isso?");
     if (resposta) {
       const res = await fetch(
         `https://66429d3a3d66a67b3437cdb2.mockapi.io/products/${id}`,

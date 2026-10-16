@@ -1,51 +1,58 @@
-# 💻 Web Development - JavaScript
+# Web Development — JavaScript Coursework
 
-Bem-vindo ao repositório da disciplina **Web Development**! Aqui você encontrará materiais, exemplos, exercícios e projetos referentes ao curso, com foco em **JavaScript** para desenvolvimento web moderno.
+Class materials, examples, and exercises focused on JavaScript and interactive web pages.
 
----
+## Course information
 
-## Sobre o Curso
+- **Instructor:** Daniel Loureiro Cintra
+- **Year:** 2024
+- **Tools:** GitHub, Visual Studio Code, and a web browser
 
-A disciplina de **Web Development (Desenvolvimento Web)** tem como objetivo dar uma base sólida em criação de páginas interativas, aplicações web e manipulação do DOM, utilizando **JavaScript moderno** como principal linguagem de programação.
+## Topics
 
-**Instrutor:** Daniel Loureiro Cintra  
-**Período:** 2024  
-**Plataforma:** GitHub, Visual Studio Code, Navegador Web
+1. **How the web works**
+   - The client-server cycle.
+   - An introduction to web development.
 
----
+2. **HTML and CSS review**
+   - Page structure.
+   - Selectors and layouts.
 
-## Conteúdo Programático
+3. **JavaScript fundamentals**
+   - Variables, data types, and operators.
+   - Conditions and loops.
+   - Functions and arrow functions.
 
-1. **Introdução ao Desenvolvimento Web**
-    - História e funcionamento da web
-    - O ciclo cliente-servidor
+4. **DOM manipulation**
+   - Selecting and updating elements.
+   - Events and interactivity.
 
-2. **HTML & CSS (revisão básica)**
-    - Estrutura de páginas
-    - Seletores e layouts
+5. **Modern JavaScript**
+   - `let`, `const`, template literals, and destructuring.
+   - Arrays, objects, and common methods.
 
-3. **JavaScript: Fundamentos**
-    - Variáveis, tipos de dados, operadores
-    - Estruturas de controle (if/else, for, while)
-    - Funções e arrow functions
+6. **APIs and asynchronous requests**
+   - Requests with `fetch`.
+   - Consuming public APIs.
 
-4. **Manipulação do DOM**
-    - Seleção e alteração de elementos
-    - Eventos e interatividade
+7. **Practical exercises**
+   - BMI calculator.
+   - To-do list.
+   - Weather API consumption.
 
-5. **Práticas com JavaScript Moderno**
-    - ES6+ (let/const, template literals, destructuring)
-    - Arrays, objetos, métodos úteis
+8. **Additional course topics**
+   - Introduction to Node.js.
+   - GitHub Pages deployment.
 
-6. **APIs e AJAX**
-    - Comunicação assíncrona (fetch)
-    - Consumo de APIs públicas
+## Repository organization
 
-7. **Projetos práticos**
-    - Calculadora de IMC
-    - Lista de tarefas (To-do List)
-    - Consumo de API de clima
+Exercises are grouped in class folders such as `aula2103/`, `aula2803/`, `aula-1104/`, and `aula2504/`. The original folder names are preserved.
 
-8. **Bonus**
-    - Introdução ao Node.js
-    - Deploy no GitHub Pages
+## Explore locally
+
+```bash
+git clone https://github.com/vitorrampazzi/aula-webdev.git
+cd aula-webdev
+```
+
+Open an exercise folder and view its HTML file in a browser. A local static server can be used for examples that make network requests.
